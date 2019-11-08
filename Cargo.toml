@@ -2,6 +2,13 @@
 name = "rust_term"
 version = "0.1.0"
 authors = ["Sawyer Bergeron <sawyerbergeron@gmail.com>"]
-edition = "2019"
+edition = "2018"
 
 [dependencies]
+vulkano = "0.13"
+wayland-egl = "0.24.0"
+wayland-client = "0.24.0"
+wayland-server = "0.24.0"
+wayland-cursor = "0.24.0"
+wayland-commons = "0.24.0"
+wayland-protocols = "0.24.0"
